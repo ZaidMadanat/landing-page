@@ -1,1 +1,1 @@
-This is the project of TOP's flexbox. The current plan is to recreate the website as much as possible with a philosophical touch. This readme file will be updated after I finish the project.
+Landing Page for TOP project. My first goal is to recreate the website and then add a personalized theme to the landing page. 
