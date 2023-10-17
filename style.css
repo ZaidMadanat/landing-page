@@ -19,7 +19,7 @@ body {
     align-items: center;
 
     background-color: #1F2937;
-    height:30vh;
+    height:40vh;
     flex-wrap: wrap;
 }
 .left-text { 
@@ -33,9 +33,77 @@ body {
 .img-right { 
     margin-right: 200px;
 }
+.information { 
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+    margin: 30px 0px;
+}
+.full { 
+    display:flex;
+    flex-direction: column;
+    height:45vh;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.container { 
+    display:flex; 
+    gap: 8px;
+    align-items: center;
+}
+.imgtext { 
+    max-width: 165px;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.quote { 
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+.saying { 
+    font-size: 36px;
+    font-style: light italic;
+    color:#1F2937;
+    margin-right: 445px;
+}
+.artist { 
+    text-align: left;
+    margin-left: 575px;
+}
+.product { 
+    display:flex; 
+    flex-direction:column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width:900px;
+    color:#E5E7EB;
+    height:15vh;
+}
+.boldtext { 
+    font-size: 24px;
+    font-weight: bold;
+    margin-right:450px;
+}
+.extratext { 
+    font-size: 18px;
+    margin-right:295px;
+}
+.bottom-text { 
+    display:flex;
+}
 button { 
     background-color: #3882F6; 
     max-width: 75px;
+    flex: 1 0 auto;
+    color:#E5E7EB
 }
 .hero-text { 
     font-size: 48px; 
@@ -55,6 +123,7 @@ button {
     font-size:18px; 
     color:#E5E7EB;
     text-align: center;
+    margin-top:75px;
 }
 .left-links { 
     font-weight: bold;
