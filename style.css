@@ -3,18 +3,21 @@
     margin: 0;
     padding: 0;
 }
+body { 
+   max-width:1920px;
+   display:flex;
+   flex-direction: column;
+}
 img { 
     max-width: 100%;
     max-height:100%;
 }
 .header { 
-    display:flex;
     background-color: #1F2937;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:1920px;
-    height:60px;
-    margin: 0 auto;
+   
 }
 ul { 
     list-style-type: none;
@@ -38,9 +41,6 @@ a {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    max-width:1920px;
-    height:30%;
-    margin: 0 auto;
     gap: 30px;
  }
  p { 
@@ -54,14 +54,13 @@ a {
     color: #F9FAF8;
  }
  .img-right { 
-    min-width: 500px;
-    width:auto;
+    width: 500px;
     height:300px;
+    align-self: center;
  }
  .left-text { 
     display:flex; 
     flex-direction: column;
-    max-width: 100%;
     gap: 8px;
  }
  .no-white { 
@@ -76,15 +75,11 @@ a {
  .full { 
     display:flex;
     flex-direction: column;
-    max-width: 1920px;
-    height:800px;
     justify-content: space-between;
     align-items: center;
  }
  .container { 
     display:flex;
-    height:30%;
-    max-width: 100%;
  }
  .fix-img { 
     max-width: 250px;
@@ -100,21 +95,21 @@ a {
  .info { 
     display:flex;
     flex-direction: column;
-    height:400px;
+    justify-content: space-between;
+    align-items: center;
  }
  .imgtext { 
     font-size: 18px;
-    text-align: left;
     color:#1F2937;
-    max-width: 250px;
-    max-height: 800px;
+    text-align: center;
+
  }
  .quote { 
     background-color: #E5E7EB;
-    height:5%;
+    padding: 30px 0;
  }
  .saying { 
-    font-size: 36px;
+    font-size: 28px;
     font-style: light italic;
     color:#1F2937;
  }
@@ -126,15 +121,16 @@ a {
  .product { 
     background-color: #3882F6;
     font-size: 18px;
+    max-width: 600px;
     color:#F9FAF8;
     border-radius: 6px;
+    margin-bottom: 10px;
  }
  .boldtext { 
     font-weight: bold;
  }
  .bottom-text { 
     display:flex;
-    max-width: 1920px;
     gap: 50px;
  }
  .white-border { 
@@ -146,7 +142,8 @@ a {
     flex-shrink:0;
  }
  .footer { 
-    text-align: center;
-    max-width: 1920px;
     background-color: #1F2937;
+    text-align: center;
+    margin-top: auto;
  }
+
