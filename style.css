@@ -7,6 +7,7 @@ body {
    max-width:1920px;
    display:flex;
    flex-direction: column;
+   height:100vh;
 }
 img { 
     max-width: 100%;
@@ -17,6 +18,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 5rem;
    
 }
 ul { 
@@ -25,47 +27,49 @@ ul {
 a {
     color: #F9FAF8;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
  }
  .logo { 
-    font-size: 24px; 
+    font-size: 1.5rem; 
     font-weight: bold;
     color: #F9FAF8;
  }
  .right-links { 
     display:flex;
-    gap: 8px;
+    gap: 1.5rem;
  }
  .sign-up { 
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 2rem;
+    padding: 1rem 5rem;
  }
  p { 
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #E5E7EB;
-    max-width: 75%;
+    max-width: 80%;
+    flex: 1;
  }
  .hero-text { 
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 80%;
+    flex: 1;
  }
  .img-right { 
-    width: 500px;
-    height:300px;
     align-self: center;
  }
  .left-text { 
     display:flex; 
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
  }
  .no-white { 
     background-color: #3882F6;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #F9FAF8;
     width:110px;
     border-radius: 5px;
@@ -77,20 +81,26 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 5rem;
+    gap: 5rem;
  }
  .container { 
     display:flex;
+    gap:1rem;
  }
  .fix-img { 
-    max-width: 250px;
-    max-height: 250px;
+    padding: 0 5px;
+    float:left; 
+    max-width:10rem;
+    max-height:10rem;
+    object-fit:cover;
+    flex: 1 1 1;
  }
  .information { 
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bolder;
     color:#1F2937;
     text-align: center;
-    margin: 20px 0;
  }
  .info { 
     display:flex;
@@ -99,47 +109,48 @@ a {
     align-items: center;
  }
  .imgtext { 
-    font-size: 18px;
+    font-size: 1.2rem;
     color:#1F2937;
-    text-align: center;
-
+    text-align: left;
+    padding-top: 2%;
  }
  .quote { 
     background-color: #E5E7EB;
-    padding: 30px 0;
+    flex: 1 1 auto;
  }
  .saying { 
-    font-size: 28px;
+    font-size: 1.3rem;
     font-style: light italic;
     color:#1F2937;
  }
  .artist { 
-    font-size: 36px;
+    font-size: 2.2rem;
     font-weight: bold;
     color:#1F2937;
  }
  .product { 
     background-color: #3882F6;
-    font-size: 18px;
-    max-width: 600px;
+    font-size: 1.2rem;
     color:#F9FAF8;
     border-radius: 6px;
-    margin-bottom: 10px;
  }
  .boldtext { 
     font-weight: bold;
  }
  .bottom-text { 
     display:flex;
-    gap: 50px;
  }
  .white-border { 
     background-color: #3882F6;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #F9FAF8;
     width:110px;
+    text-align: center;
     border-radius: 5px;
     flex-shrink:0;
+    margin-right: 2%;
+    margin-top:1%;
+    margin-bottom: 1%;
  }
  .footer { 
     background-color: #1F2937;
